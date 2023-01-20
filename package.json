@@ -4,7 +4,7 @@
   "description": "---",
   "main": "index.js",
   "scripts": {
-    "deploy": "surge"
+    "deploy": "dotenv cross-var surge %PROJECT% %DOMAIN%"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "homepage": "https://github.com/narukaioh/eshop-workshop#readme",
   "dependencies": {
     "surge": "^0.23.1"
+  },
+  "devDependencies": {
+    "cross-var": "^1.1.0",
+    "dotenv-cli": "^7.0.0"
   }
 }
