@@ -1,0 +1,22 @@
+{
+  "name": "furn-master",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "surge"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narukaioh/eshop-workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narukaioh/eshop-workshop/issues"
+  },
+  "homepage": "https://github.com/narukaioh/eshop-workshop#readme",
+  "dependencies": {
+    "surge": "^0.23.1"
+  }
+}
