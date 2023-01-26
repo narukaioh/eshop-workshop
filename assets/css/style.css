@@ -42,7 +42,7 @@ font-family: 'Roboto', sans-serif;
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: #a09e9c;
+    color: #6f6f6f;
     background: #fff;
     text-transform: capitalize;
     max-width: 1920px;
@@ -70,9 +70,14 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
 }
 
+#new-arrivals h2 {
+    font-size: 32px;
+    margin-top: 3rem;
+}
+
 p {
     margin: 0;
-    color: #a09e9c;
+    color: #6f6f6f;
     font-size: 16px;
     line-height: 1.8;
 }
@@ -126,6 +131,7 @@ html, body {
 .section-header h2 {
     font-size: 30px;
     font-weight: 500;
+    padding-top: 16px;
 }
 
 .section-header h2 span {
@@ -230,7 +236,7 @@ nav.navbar.bootsnav ul.nav>li.dropdown span {
 }
 
 .menu-ui-design::-webkit-scrollbar-thumb {
-    background-color: #e99c2e;
+    background-color: #925604;
 }
 
 /*.menu-ui-design*/
@@ -244,12 +250,12 @@ nav.navbar.bootsnav ul.nav>li.dropdown span {
 .attr-nav>ul>li>a {
     color: #fff;
     padding: 44px 15px;
-    font-size: 18px;
+    font-size: 28px;
     font-weight: 500;
 }
 
 .attr-nav>ul>li>a:hover {
-    color: #e99c2e;
+    color: #925604;
 }
 
 .wrap-sticky nav.navbar.bootsnav.sticked .attr-nav>ul>li>a {
@@ -260,8 +266,8 @@ nav.navbar.bootsnav ul.nav>li.dropdown span {
 
 /*badge*/
 .badge {
-    background-color: #e99c2e;
-    border: 2px solid #e99c2e;
+    background-color: #925604;
+    border: 2px solid #925604;
 }
 
 .attr-nav>ul>li>a span.badge {
@@ -269,6 +275,7 @@ nav.navbar.bootsnav ul.nav>li.dropdown span {
     width: 20px;
     height: 20px;
     padding-top: 3px;
+    font-size: 14px;
 }
 
 /*.badge*/
@@ -375,8 +382,8 @@ ul.cart-list>li.total {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #e99c2e;
-    border: 1px solid #e99c2e;
+    background: #925604;
+    border: 1px solid #925604;
     width: 80px;
     height: 30px;
     white-space: nowrap;
@@ -864,20 +871,20 @@ p.arrival-review span {
     bottom: 0px;
 }
 
-.single-new-arrival h4 a {
-    color: #5f5b57;
+.single-new-arrival h3 a {
+    color: #2f1e0c;
     font-size: 16px;
     font-weight: 500;
     margin: 26px 0 12px;
 }
 
 .arrival-product-price {
-    color: #5f5b57;
+    color: #2f1e0c;
     font-size: 16px;
     font-weight: 400;
 }
 
-.single-new-arrival:hover h4 a {
+.single-new-arrival:hover h3 a {
     color: #e99c2e;
 }
 
@@ -999,7 +1006,7 @@ span.feature-review {
 }
 
 .single-feature-txt h3 a, .single-blog-txt h2 a {
-    color: #5f5b57;
+    color: #30271e;
     margin: 10px 0px 15px;
 }
 
@@ -1088,7 +1095,7 @@ span.feature-review {
 }
 
 .single-blog-txt h3, .single-blog-txt h3 a {
-    color: #bcb7b2;
+    color: #4c2727;
     font-size: 14px;
     font-weight: 400;
 }
@@ -1100,7 +1107,7 @@ span.feature-review {
 .single-blog-txt p {
     font-size: 13px;
     margin-top: 20px;
-    color: #95908b;
+    color: #3e3e3e;
 }
 
 .single-blog:hover .single-blog-txt h2 a {
@@ -1141,7 +1148,7 @@ span.feature-review {
 }
 
 .hm-foot-menu ul li a {
-    color: #a09e9c;
+    color: #6f6f6f;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 15px;
@@ -1183,7 +1190,7 @@ span.feature-review {
 
 .foot-email-box input[type="text"] {
     font-size: 14px;
-    color: #bcb7b2;
+    color: #7c7c7c;
 }
 
 .foot-email-subscribe {
